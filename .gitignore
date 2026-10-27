@@ -1,0 +1,11 @@
+# Environment variables and passwords/ ignorerar filler som kan innehålla lösenord
+.env
+.env.*
+
+# Vim temporary files/ ignorerar tillfäliga filer från Vim
+*.swp
+*.swo
+*~
+
+# macOS files/ ignorerar systemfiller från Mac
+.DS_Store
