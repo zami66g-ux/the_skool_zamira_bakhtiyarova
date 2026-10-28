@@ -127,3 +127,9 @@ Bilden visar beviljandegraden för de 14 utbildningsområdena, sorterade från h
 
 ![Resultat från uppgift 3a](screenshots/Uppgift%203a.png)
 
+
+### Uppgift 3b – Beviljandegrad per studieform
+
+Analysen jämför beviljandegraden mellan bundna utbildningar och distansutbildningar. Bundna utbildningar hade en beviljandegrad på 42,5 %, jämfört med 35,0 % för distansutbildningar.
+
+![Resultat från uppgift 3b](screenshots/Uppgift%203b.png)
