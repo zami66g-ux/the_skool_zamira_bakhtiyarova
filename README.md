@@ -147,3 +147,11 @@ Analysen undersöker vilka utbildningsinriktningar inom Data/IT som hade högst 
 Resultaten bör tolkas försiktigt eftersom vissa utbildningsinriktningar har få ansökningar.
 
 ![Resultat från uppgift 3d](screenshots/Uppgift%203d.png)
+
+### Uppgift 3e – Antal beviljade utbildningsomgångar
+
+Analysen visar hur många utbildningsomgångar som beviljades per godkänd ansökan. Av totalt 462 beviljade ansökningar fick 416 (90,0 %) tre utbildningsomgångar.
+
+Resultatet visar att tre utbildningsomgångar var det vanligaste utfallet bland de beviljade ansökningarna.
+
+![Resultat från uppgift 3e](screenshots/Uppgift%203e.png)
