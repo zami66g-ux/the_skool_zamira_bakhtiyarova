@@ -155,3 +155,37 @@ Analysen visar hur många utbildningsomgångar som beviljades per godkänd ansö
 Resultatet visar att tre utbildningsomgångar var det vanligaste utfallet bland de beviljade ansökningarna.
 
 ![Resultat från uppgift 3e](screenshots/Uppgift%203e.png)
+
+
+## Uppgift 4 – Implementera datamodell (BONUS)
+
+### Syfte
+Den ursprungliga tabellen `THE_SKOOL_2025` delades upp i åtta mindre tabeller för att skapa en normaliserad datamodell med primärnycklar (PK) och främmande nycklar (FK).
+
+### Tabeller
+1. `utbildningsomrade` – utbildningsområden.
+2. `sun5_inriktning` – SUN5-inriktningar kopplade till utbildningsområden.
+3. `seqf` – SEQF-nivåer och examenstyper.
+4. `utbildningsanordnare` – utbildningsanordnare och huvudmannatyper.
+5. `lan` – länsuppgifter.
+6. `kommun` – kommunposter kopplade till län.
+7. `ansokan` – utbildningsansökningar.
+8. `ansokan_kommun` – kopplingar mellan ansökningar och kommuner.
+
+### Resultat
+- 14 utbildningsområden.
+- 200 SUN5-inriktningar.
+- 2 SEQF-nivåer.
+- 242 utbildningsanordnare.
+- 21 länsposter, inklusive specialvärdet `Flera kommuner`.
+- 95 kommunposter.
+- 1 184 ansökningar.
+- 1 184 kopplingar mellan ansökningar och kommuner.
+
+Datamodellen innehåller sju främmande nycklar som kopplar samman tabellerna.
+
+### SQL-filer
+- `16_datamodell.sql` – SQL-kod för att skapa tabellerna och deras relationer.
+- `17_fyll_datamodell.sql` – SQL-kod för att föra över data från `THE_SKOOL_2025`.
+
+
