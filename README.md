@@ -133,3 +133,9 @@ Bilden visar beviljandegraden för de 14 utbildningsområdena, sorterade från h
 Analysen jämför beviljandegraden mellan bundna utbildningar och distansutbildningar. Bundna utbildningar hade en beviljandegrad på 42,5 %, jämfört med 35,0 % för distansutbildningar.
 
 ![Resultat från uppgift 3b](screenshots/Uppgift%203b.png)
+
+### Uppgift 3c – Beviljandegrad per huvudmannatyp
+
+Analysen jämför beviljandegraden mellan olika huvudmannatyper. Kommunala utbildningsanordnare hade högst beviljandegrad med 58,5 %, följt av regioner med 50,0 % och privata utbildningsanordnare med 35,3 %.
+
+![Resultat från uppgift 3c](screenshots/Uppgift%203c.png)
