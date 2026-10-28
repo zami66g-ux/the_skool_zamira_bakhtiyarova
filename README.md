@@ -139,3 +139,11 @@ Analysen jämför beviljandegraden mellan bundna utbildningar och distansutbildn
 Analysen jämför beviljandegraden mellan olika huvudmannatyper. Kommunala utbildningsanordnare hade högst beviljandegrad med 58,5 %, följt av regioner med 50,0 % och privata utbildningsanordnare med 35,3 %.
 
 ![Resultat från uppgift 3c](screenshots/Uppgift%203c.png)
+
+### Uppgift 3d – Beviljandegrad inom Data/IT
+
+Analysen undersöker vilka utbildningsinriktningar inom Data/IT som hade högst respektive lägst beviljandegrad. Exempelvis hade databasutvecklare 100 % (2 av 2 ansökningar), medan webbutvecklare hade 0 % (0 av 32 ansökningar).
+
+Resultaten bör tolkas försiktigt eftersom vissa utbildningsinriktningar har få ansökningar.
+
+![Resultat från uppgift 3d](screenshots/Uppgift%203d.png)
