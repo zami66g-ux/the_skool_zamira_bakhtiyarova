@@ -189,3 +189,24 @@ Datamodellen innehåller sju främmande nycklar som kopplar samman tabellerna.
 - `17_fyll_datamodell.sql` – SQL-kod för att föra över data från `THE_SKOOL_2025`.
 
 
+### Uppgift 4 – EDA med den nya datamodellen
+
+Efter att den normaliserade datamodellen skapades genomfördes samtliga nio SQL-analyser från uppgift 1 (1a–1i) på nytt.
+
+Frågorna anpassades för att använda JOIN mellan de nya tabellerna i stället för att hämta all information från den ursprungliga tabellen `THE_SKOOL_2025`.
+
+SQL-frågorna finns i filen `18_eda_ny_datamodell.sql`.
+
+### Kontroll av resultat
+
+För att kontrollera datamodellen jämfördes antalet ansökningar och beslutsfördelningen mellan den ursprungliga och den normaliserade modellen.
+
+- Antal ansökningar: 1 184 i båda modellerna.
+- Beviljade ansökningar: 462.
+- Avslag: 721.
+- Återkallade ansökningar: 1.
+- Antal unika utbildningsnamn med AI: 38.
+
+Samtliga nio EDA-frågor kördes utan SQL-fel mot den nya datamodellen.
+
+Detta visar att den normaliserade datamodellen kan användas för att genomföra analyserna samtidigt som informationen är uppdelad i relaterade tabeller.
